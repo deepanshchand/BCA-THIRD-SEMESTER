@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM CRUD Practice</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+
+      .box {
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px 0;
+      }
+
+      .active {
+        background-color: yellow;
+      }
+
+      .highlight {
+        color: red;
+        font-weight: bold;
+      }
+
+      ul {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="heading">DOM CRUD Operations</h1>
+
+    <div id="content" class="box">Original Content</div>
+
+    <a id="link" href="https://google.com"> Google Link </a>
+
+    <br /><br />
+
+    <section id="section1" class="box">Section Element</section>
+
+    <div class="parent box">
+      <div class="child">Child 1</div>
+      <div class="child">Child 2</div>
+      <div class="child">Child 3</div>
+    </div>
+
+    <ul id="list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li class="removeMe">Remove Me</li>
+    </ul>
+
+    <script src="14_DOM_CRUD.js"></script>
+  </body>
+</html>
